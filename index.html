@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>my schoolwebsite</title>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.min.css">
@@ -13,18 +13,33 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+            
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
+        
+        <main class="off-screen-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </main>
 
         <section id="Home">
             <h2>Building High Intellectuals</h2>
             <p>We are committed in giving young students the platform to
-                grow<br> and achieve their dreams in terms of career,</br>
-                talents and skills.
+                grow
             </p>
+            <p>and achieve their dreams in terms of career,
+                talents and skills.</p>
             <div class="btn">
                 <a href="#">
                     <button class="blue">
@@ -156,7 +171,9 @@
                 <input type="text" placeholder="Email Address" name="" id="">
                 <input type="text" placeholder="Phone Number" name="" id="">
                 <div class="btn">
-                    <a class="yellow" href="#">Submit form</a>
+                    <a href="#">
+                        <button class="button yellow">Submit</button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -195,7 +212,9 @@
                 <p>You can trust us.We only send promo offers,</p>
                 <div class="subscribe">
                     <input type="text" placeholder="Your Email Address">
-                    <a href="#" class="yellow">SUBSCRIBE</a>
+                    <a href="#">
+                        <button class="yellow">SUBSCRIBE</button>
+                    </a>
                 </div>
             </div>
             <div class="copyright">
@@ -208,6 +227,9 @@
                 </div>
             </div>
         </footer>
+        
+
+        <script src="script.js"></script>
 
     </body>
 </html>
